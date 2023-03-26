@@ -133,6 +133,8 @@ jobs:
         if: matrix.os == 'macos-latest' && matrix.python-version == '3.11'
         run: |
           sed -i'.bak' -e "s%lxml==4.9.2%https://github.com/scoder/lxml/releases/download/lxml-5.0a0/lxml-5.0.0a0-cp311-cp311-macosx_11_0_universal2.whl%" python/requirements.txt
+          sed -i'.bak' -e "s%lxml==4.9.2%https://github.com/scoder/lxml/releases/download/lxml-5.0a0/lxml-5.0.0a0-cp311-cp311-macosx_11_0_universal2.whl%" python/requirements-direct.txt
+          sed -i'.bak' -e "s/3d573635622b51b1d3301099e285807c/a51fc92ffda99e469e63b2bd5f933c9d/" composite/action.yml
           git diff
 
       - name: Install Python dependencies
