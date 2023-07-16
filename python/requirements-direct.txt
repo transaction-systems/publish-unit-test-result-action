@@ -4,5 +4,5 @@ junitparser==2.8.0
 lxml==4.9.1
 psutil==5.9.4
 PyGithub @ git+https://github.com/EnricoMi/PyGithub.git@branch-retry-retryable-403
-requests==2.27.1
+requests==2.31.0
 urllib3==1.26.13
