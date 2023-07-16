@@ -7,7 +7,7 @@ psutil==5.9.4
 PyGithub @ git+https://github.com/EnricoMi/PyGithub.git@16af8e8795810dca9175b8d31c1ed342cd5d8838
   Deprecated==1.2.13
     wrapt==1.15.0
-  PyJWT==2.4.0
+  PyJWT==2.7.0
   PyNaCl==1.5.0
     cffi==1.15.1
       pycparser==2.21
